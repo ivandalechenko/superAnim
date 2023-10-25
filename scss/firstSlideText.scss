@@ -1,0 +1,42 @@
+#firstSlideText{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    max-width: 1520px;
+}
+.firstSlideText_wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+    position: relative;
+    z-index: 1;
+}
+
+.textLine_letter{
+    transform: translateY(30px);
+    display: inline-block;
+    transition: transform .5s, opacity .5s;
+    font-family: Clash Grotesk;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 64px;
+    letter-spacing: 0em;
+    text-align: center;
+    text-transform: uppercase;
+    min-width: 10px;
+    opacity: 0;
+    @media(max-width:1300px){
+        font-size: 60px;
+        line-height: 50px;
+    }
+    @media(max-width:600px){
+        font-size: 30px;
+        line-height: 28px;
+    }
+}
+.textLine_letter_show{
+    opacity: 1;
+    transform: translateY(0px);
+}

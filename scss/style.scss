@@ -1,0 +1,21 @@
+@import url("null.scss");
+@import url("firstSlideText.scss");
+@import url("firstSlideBg.scss");
+@import url("firstSlideChar.scss");
+@import url("header.scss");
+@import url("form.scss");
+@import url("thirdSlideHouses.scss");
+@import url("thirdSlideText.scss");
+
+#thirdSlideLinks{
+    display: flex;
+    justify-content: center;
+}
+#thirdSlideLinksInner{
+    display: flex;
+    margin-top: 70vh;
+    column-gap: 20px;
+    img{
+        width: 72px;
+    }
+}
